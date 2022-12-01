@@ -3,3 +3,4 @@
 <p>공간 복잡도: O(N)</p>
 
 (Unstable sort) vs (Stable sort)
+<img src="Sort.png">
