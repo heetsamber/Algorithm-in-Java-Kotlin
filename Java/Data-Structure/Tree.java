@@ -34,6 +34,7 @@ class Tree{
         node.right = right;
         return node;
     }
+    // 중위 순회
     public void inorder(Node node){
         if(node != null){
             inorder(node.left);
@@ -41,6 +42,7 @@ class Tree{
             inorder(node.right);
         }
     }
+    //전위 순회
     public void preorder(Node node){
         if(node != null){
             System.out.println(node.data);
@@ -48,7 +50,7 @@ class Tree{
             preorder(node.right);
         }
     }
-
+    //후위 순회
     public void postorder(Node node){
         if(node != null){
             postorder(node.left);
