@@ -4,6 +4,7 @@ public class BinarySearch {
         int start = 0;
         int end = arr.length - 1;
         while (start <= end) {
+            // 시작 지점은 0이기떄문에 오버플로우가 나지않음
             int mid = (start + end) / 2;
             if (x == arr[mid]) {
                 return mid;
