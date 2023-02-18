@@ -1,4 +1,4 @@
-class Euclidean {
+class SteinAlgorithm {
     static int gcd(int a, int b)
     {
         // GCD(0, b) == b; GCD(a, 0) == a,
