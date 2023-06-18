@@ -1,4 +1,4 @@
-
+package Tree;
 
 
 /*
@@ -18,7 +18,7 @@ class Node{
     Node right;
 }
 
-class Tree{
+public class Tree{
     public Node root;
 
     public void setRoot(Node node){
@@ -61,7 +61,7 @@ class Tree{
 
 }
 
-public class Main{
+class Program{
         public static void main(String[] args){
 
             Tree t = new Tree();
@@ -74,12 +74,8 @@ public class Main{
             t.inorder(t.getRoot());
             System.out.println("");
 
-
-
             t.preorder(t.getRoot());
             System.out.println("");
-
-
 
             t.postorder(t.getRoot());
             System.out.println("");

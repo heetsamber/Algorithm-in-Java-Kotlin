@@ -1,4 +1,4 @@
-public class Main {
+public class RabinKarp {
     // d is the number of characters in the input alphabet
     public final static int d = 256;
 
